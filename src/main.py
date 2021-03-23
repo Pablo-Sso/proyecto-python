@@ -4,7 +4,8 @@ app = Flask(__name__)
 
 # esto es un comentario
 def suma(a,b):
-  return a+b
+  c=1+1
+  return a+b+c
 
 # este es el endpoint
 @app.route("/")
